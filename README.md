@@ -99,6 +99,8 @@ Proyek **Keuanganku** dirancang sebagai aplikasi mobile modern dengan:
 
 ---
 
+## made with 💖
+
 ## 📄 Lisensi
 
 MIT License © 2025 **Rahmat Mulia**

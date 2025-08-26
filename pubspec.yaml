@@ -1,0 +1,51 @@
+name: project_3
+description: "A new Flutter project."
+publish_to: 'none' # Publikasi ke pub.dev dimatikan
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI dan ikon
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.7.0
+  url_launcher: ^6.2.5
+
+  # Backend & Auth
+  supabase_flutter: ^2.5.0
+  flutter_dotenv: ^5.1.0
+  intl: ^0.18.1
+  fl_chart: ^0.65.0
+  image_picker: ^1.0.4
+  flutter_animate: ^4.2.0
+  pull_to_refresh: ^2.0.0
+  smooth_page_indicator: ^1.1.0
+  flutter_svg: ^2.0.7
+  go_router: ^11.1.0
+  rename: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1   # ← paketnya disini
+
+flutter_launcher_icons:             # ← konfigurasinya disini, di luar
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  remove_alpha_ios: true   # ← tambahkan baris ini
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/svg/auth_decoration.svg
+    - assets/svg/auth_decoration1.svg
+    - assets/logo.png

@@ -1,0 +1,90 @@
+# ===============================
+# Miscellaneous
+# ===============================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ===============================
+# IntelliJ related
+# ===============================
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# ===============================
+# VS Code (optional, kalau mau simpan setting VS Code ke repo, hapus baris ini)
+# ===============================
+.vscode/
+
+# ===============================
+# Flutter / Dart / Pub
+# ===============================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# ===============================
+# iOS
+# ===============================
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# ===============================
+# Android
+# ===============================
+/android/app/debug
+/android/app/profile
+/android/app/release
+**/android/**/gradle-wrapper.jar
+**/android/.gradle/
+**/android/local.properties
+**/android/**/build/
+
+# ===============================
+# macOS
+# ===============================
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/macos/Runner/GeneratedPluginRegistrant.swift
+
+# ===============================
+# Windows
+# ===============================
+**/windows/x64/
+**/windows/runner/Release/
+
+# ===============================
+# Linux
+# ===============================
+**/linux/**/build/
+
+# ===============================
+# Symbolication
+# ===============================
+app.*.symbols
+
+# ===============================
+# Obfuscation
+# ===============================
+app.*.map.json

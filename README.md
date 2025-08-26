@@ -7,7 +7,6 @@ Tujuannya membantu pengguna mengelola keuangan sehari-hari dengan tampilan moder
 
 ## 📸 Screenshot
 <p align="center">
-  <img src="assets/logo.png" width="200"/>
   <img src="assets/readme/1.png" width="200"/>
   <img src="assets/readme/2.png" width="200"/>
   <img src="assets/readme/3.png" width="200"/>
@@ -51,53 +50,42 @@ Tujuannya membantu pengguna mengelola keuangan sehari-hari dengan tampilan moder
    ```bash
    git clone https://github.com/skimatt/KeuanganKu.git
    cd KeuanganKu
-````
+Install Dependencies
 
-2. **Install Dependencies**
+```bash
+flutter pub get
+Setup Supabase
 
-   ```bash
-   flutter pub get
-   ```
+Buka file .env (atau buat baru jika belum ada).
 
-3. **Setup Supabase**
+Tambahkan kode berikut dengan data dari Supabase Project:
 
-   * Buka file `.env` (atau buat baru jika belum ada).
-   * Tambahkan kode berikut dengan data dari Supabase Project:
+env
+Salin
+Edit
+SUPABASE_URL=https://xxxx.supabase.co
+SUPABASE_ANON_KEY=your-anon-key
+Jalankan Aplikasi
 
-     ```env
-     SUPABASE_URL=https://xxxx.supabase.co
-     SUPABASE_ANON_KEY=your-anon-key
-     ```
+```bash
+flutter run
+🛠️ Teknologi yang Digunakan
+Flutter → Frontend & UI/UX
 
-4. **Jalankan Aplikasi**
+Supabase → Auth, Database, Storage
 
-   ```bash
-   flutter run
-   ```
+StreamBuilder → Real-time state pada autentikasi & dashboard
 
----
+📖 Ringkasan
+Proyek Keuanganku dirancang sebagai aplikasi mobile modern dengan:
 
-## 🛠️ Teknologi yang Digunakan
+🎨 UI/UX estetik
 
-* **Flutter** → Frontend & UI/UX
-* **Supabase** → Auth, Database, Storage
-* **StreamBuilder** → Real-time state pada autentikasi & dashboard
+⚡ Backend realtime yang kuat
 
----
+✅ Fitur lengkap (auth, CRUD, laporan, profil)
 
-## 📖 Ringkasan
+👉 Cukup clone repo, atur file .env, lalu jalankan Flutter – aplikasi siap dipakai 🚀
 
-Proyek **Keuanganku** dirancang sebagai aplikasi mobile modern dengan:
-
-* 🎨 **UI/UX estetik**
-* ⚡ **Backend realtime yang kuat**
-* ✅ **Fitur lengkap (auth, CRUD, laporan, profil)**
-
-👉 **Cukup clone repo, atur file `.env`, lalu jalankan Flutter – aplikasi siap dipakai 🚀**
-
----
-
-## 📄 Lisensi
-
-MIT License © 2025 **Rahmat Mulia**
-
+📄 Lisensi
+MIT License © 2025 Rahmat Mulia

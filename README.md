@@ -44,48 +44,63 @@ Tujuannya membantu pengguna mengelola keuangan sehari-hari dengan tampilan moder
 
 ---
 
+Berikut sudah saya rapikan penulisan Markdown-nya agar konsisten, rapi, dan enak dibaca:
+
+````markdown
 ## 🚀 Cara Menjalankan Proyek
 
 1. **Clone Repository**
    ```bash
    git clone https://github.com/skimatt/KeuanganKu.git
    cd KeuanganKu
-Install Dependencies
+````
+
+2. **Install Dependencies**
+
+   ```bash
+   flutter pub get
+   ```
+
+3. **Setup Supabase**
+
+   * Buka file `.env` (atau buat baru jika belum ada).
+   * Tambahkan kode berikut dengan data dari Supabase Project:
+
+     ```env
+     SUPABASE_URL=https://xxxx.supabase.co
+     SUPABASE_ANON_KEY=your-anon-key
+     ```
+
+4. **Jalankan Aplikasi**
+
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+* **Flutter** → Frontend & UI/UX
+* **Supabase** → Auth, Database, Storage
+* **StreamBuilder** → Real-time state pada autentikasi & dashboard
+
+---
+
+## 📖 Ringkasan
+
+Proyek **Keuanganku** dirancang sebagai aplikasi mobile modern dengan:
+
+* 🎨 **UI/UX estetik**
+* ⚡ **Backend realtime yang kuat**
+* ✅ **Fitur lengkap (auth, CRUD, laporan, profil)**
+
+👉 **Cukup clone repo, atur file `.env`, lalu jalankan Flutter – aplikasi siap dipakai 🚀**
+
+---
+
+## 📄 Lisensi
+
+MIT License © 2025 **Rahmat Mulia**
 
 
-flutter pub get
-Setup Supabase
-
-Buka file .env (atau buat baru jika belum ada).
-
-Tambahkan kode berikut dengan data dari Supabase Project:
-
-env
-Salin
-Edit
-SUPABASE_URL=https://xxxx.supabase.co
-SUPABASE_ANON_KEY=your-anon-key
-Jalankan Aplikasi
-
-
-flutter run
-🛠️ Teknologi yang Digunakan
-Flutter → Frontend & UI/UX
-
-Supabase → Auth, Database, Storage
-
-StreamBuilder → Real-time state pada autentikasi & dashboard
-
-📖 Ringkasan
-Proyek Keuanganku dirancang sebagai aplikasi mobile modern dengan:
-
-🎨 UI/UX estetik
-
-⚡ Backend realtime yang kuat
-
-✅ Fitur lengkap (auth, CRUD, laporan, profil)
-
-👉 Cukup clone repo, atur file .env, lalu jalankan Flutter – aplikasi siap dipakai 🚀
-
-📄 Lisensi
-MIT License © 2025 Rahmat Mulia

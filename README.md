@@ -52,7 +52,7 @@ Tujuannya membantu pengguna mengelola keuangan sehari-hari dengan tampilan moder
    cd KeuanganKu
 Install Dependencies
 
-```bash
+
 flutter pub get
 Setup Supabase
 
@@ -67,7 +67,7 @@ SUPABASE_URL=https://xxxx.supabase.co
 SUPABASE_ANON_KEY=your-anon-key
 Jalankan Aplikasi
 
-```bash
+
 flutter run
 🛠️ Teknologi yang Digunakan
 Flutter → Frontend & UI/UX

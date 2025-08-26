@@ -5,6 +5,20 @@ Tujuannya membantu pengguna mengelola keuangan sehari-hari dengan tampilan moder
 
 ---
 
+## 📸 Screenshot
+<p align="center">
+  <img src="assets/readme/1.png" width="200"/>
+  <img src="assets/readme/2.png" width="200"/>
+  <img src="assets/readme/3.png" width="200"/>
+</p>
+<p align="center">
+  <img src="assets/readme/4.png" width="200"/>
+  <img src="assets/readme/5.png" width="200"/>
+  <img src="assets/readme/6.png" width="200"/>
+</p>
+
+---
+
 ## ✨ Fitur Utama
 - **Autentikasi Aman**  
   Login & register via Email/Password atau Google (Supabase Auth).  
@@ -27,20 +41,6 @@ Tujuannya membantu pengguna mengelola keuangan sehari-hari dengan tampilan moder
 - **Profil & Kategori**  
   - Ubah nama, kata sandi, dan foto profil  
   - Tambah/hapus kategori pengeluaran  
-
----
-
-## 📸 Screenshot
-<p align="center">
-  <img src="assets/readme/1.png" width="200"/>
-  <img src="assets/readme/2.png" width="200"/>
-  <img src="assets/readme/3.png" width="200"/>
-</p>
-<p align="center">
-  <img src="assets/readme/4.png" width="200"/>
-  <img src="assets/readme/5.png" width="200"/>
-  <img src="assets/readme/6.png" width="200"/>
-</p>
 
 ---
 

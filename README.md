@@ -7,6 +7,7 @@ Tujuannya membantu pengguna mengelola keuangan sehari-hari dengan tampilan moder
 
 ## 📸 Screenshot
 <p align="center">
+  <img src="assets/logo.png" width="200"/>
   <img src="assets/readme/1.png" width="200"/>
   <img src="assets/readme/2.png" width="200"/>
   <img src="assets/readme/3.png" width="200"/>

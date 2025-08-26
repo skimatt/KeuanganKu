@@ -20,27 +20,27 @@ Tujuannya membantu pengguna mengelola keuangan sehari-hari dengan tampilan moder
 ---
 
 ## ✨ Fitur Utama
-- **Autentikasi Aman**  
-  Login & register via Email/Password atau Google (Supabase Auth).  
-  Navigasi otomatis sesuai status login.
+- 🔐 **Autentikasi Aman**  
+  - Login & register via Email/Password atau Google (Supabase Auth).  
+  - Navigasi otomatis sesuai status login.
 
-- **Dashboard Modern**  
-  - Ringkasan pengeluaran bulanan  
-  - 3 transaksi terbaru  
-  - Slider tips keuangan dinamis  
+- 📊 **Dashboard Modern**  
+  - Ringkasan pengeluaran bulanan.  
+  - Menampilkan 3 transaksi terbaru.  
+  - Slider tips keuangan dinamis.  
 
-- **Manajemen Transaksi (CRUD)**  
-  - Tambah, edit, hapus, dan lihat semua pengeluaran  
-  - Swipe-to-delete & edit transaksi  
+- 📝 **Manajemen Transaksi (CRUD)**  
+  - Tambah, edit, hapus, dan lihat semua pengeluaran.  
+  - Swipe-to-delete & edit transaksi.  
 
-- **Laporan & Visualisasi Data**  
-  - Grafik garis: tren pengeluaran harian  
-  - Grafik pie: persentase kategori  
-  - Filter bulan dengan navigasi panah  
+- 📈 **Laporan & Visualisasi Data**  
+  - Grafik garis → tren pengeluaran harian.  
+  - Grafik pie → persentase kategori.  
+  - Filter bulan dengan navigasi panah.  
 
-- **Profil & Kategori**  
-  - Ubah nama, kata sandi, dan foto profil  
-  - Tambah/hapus kategori pengeluaran  
+- 👤 **Profil & Kategori**  
+  - Ubah nama, kata sandi, dan foto profil.  
+  - Tambah/hapus kategori pengeluaran.  
 
 ---
 
@@ -50,47 +50,53 @@ Tujuannya membantu pengguna mengelola keuangan sehari-hari dengan tampilan moder
    ```bash
    git clone https://github.com/skimatt/KeuanganKu.git
    cd KeuanganKu
-Install Dependencies
+````
 
-bash
-Salin
-Edit
-flutter pub get
-Setup Supabase
+2. **Install Dependencies**
 
-Buka file .env (atau buat baru jika belum ada)
+   ```bash
+   flutter pub get
+   ```
 
-Tambahkan kode berikut dengan data dari Supabase Project:
+3. **Setup Supabase**
 
-env
-Salin
-Edit
-SUPABASE_URL=https://xxxx.supabase.co
-SUPABASE_ANON_KEY=your-anon-key
-Jalankan Aplikasi
+   * Buka file `.env` (atau buat baru jika belum ada).
+   * Tambahkan kode berikut dengan data dari Supabase Project:
 
-bash
-Salin
-Edit
-flutter run
-🛠️ Teknologi yang Digunakan
-Flutter (Frontend, UI/UX)
+     ```env
+     SUPABASE_URL=https://xxxx.supabase.co
+     SUPABASE_ANON_KEY=your-anon-key
+     ```
 
-Supabase (Auth, Database, Storage)
+4. **Jalankan Aplikasi**
 
-StreamBuilder (state real-time pada autentikasi & dashboard)
+   ```bash
+   flutter run
+   ```
 
-📖 Ringkasan
-Proyek Keuanganku dirancang sebagai contoh aplikasi mobile modern:
+---
 
-UI/UX estetik
+## 🛠️ Teknologi yang Digunakan
 
-Backend realtime yang kuat
+* **Flutter** → Frontend & UI/UX
+* **Supabase** → Auth, Database, Storage
+* **StreamBuilder** → Real-time state pada autentikasi & dashboard
 
-Fitur lengkap (auth, CRUD, laporan, profil)
+---
 
-Cukup clone repo, atur .env, lalu jalankan Flutter – dan aplikasi siap dipakai 🚀
+## 📖 Ringkasan
 
-📄 Lisensi
-MIT License © 2025 Rahmat Mulia
+Proyek **Keuanganku** dirancang sebagai aplikasi mobile modern dengan:
+
+* 🎨 **UI/UX estetik**
+* ⚡ **Backend realtime yang kuat**
+* ✅ **Fitur lengkap (auth, CRUD, laporan, profil)**
+
+👉 **Cukup clone repo, atur file `.env`, lalu jalankan Flutter – aplikasi siap dipakai 🚀**
+
+---
+
+## 📄 Lisensi
+
+MIT License © 2025 **Rahmat Mulia**
 
